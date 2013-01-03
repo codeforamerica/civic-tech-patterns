@@ -45,6 +45,8 @@ To discuss any of these, please [open an issue](issues), or fork and submit a pu
 
 * **Bridging tech capacity**: Is it doing something that the people who should make it cannot do for time, money, skill reasons? Maybe they already have tech capacity to do 90% of stuff, but just need help getting data out of the system, etc.
 
+* **Content before Engineering**: Can you explain a process so that people really understand it well _before_ you build the system to contain the process? Are you an expert in that process and have actually experienced it? See "It's For the little people"
+
 <a name="designAntiPatterns" />
 ## Design _Anti_-Patterns
 
