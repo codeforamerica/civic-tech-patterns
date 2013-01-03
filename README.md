@@ -13,7 +13,7 @@ To discuss any of these, please [open an issue](issues), or fork and submit a pu
 
 <a name="designPatterns" />
 ## Design Patterns
-* **Positive feedback**: engage people in re-imagining something for the better (instead of bludgeoning them with data about how much it currently sucks). Make it fun; make it magical. Make it different (in a good way!). Examples: [Blockee](http://blockee.com/), [JFDICitizen](http://codeforamerica.github.com/jfdicitizen/)
+* **Positive feedback**: engage people in re-imagining something for the better (instead of bludgeoning them with data about how much it currently sucks). Make it fun; make it magical. Make it different (in a good way!). Examples: [Blockee](http://blockee.org/), [JFDICitizen](http://codeforamerica.github.com/jfdicitizen/)
 
 * **Go to where the people already are**: Facebook. Seriously, Facebook. They're on Facebook.
 
