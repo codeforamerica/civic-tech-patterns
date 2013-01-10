@@ -45,8 +45,6 @@ Actively reach out to people when an action has taken place or further action is
 Design your app to be officially adopted or replace an existing resource. You may need to invest more time in social processes (explaining, building trust, gaining buy-in) than engineering; or engineering may need to be focused on maintainance/infrastructure constraints or accessibility ([508 compliance](http://en.wikipedia.org/wiki/Section_508_Amendment_to_the_Rehabilitation_Act_of_1973)!) over raw functionality.
  * Example: [SR Tracker](https://github.com/codeforamerica/srtracker)
 
-
-
 <a name="ideaPatterns" />
 ## Idea Patterns
 
@@ -63,8 +61,10 @@ Even as a thought experiment, asking “who would pay money for this and how muc
 
 
 ### Self-tested
-
 An application that you yourself fully and/or regularly use. Assuming you aren't a sociopath, though admitting that you aren't representative of everyone or even many-one, building something that is insanely useful to you can result in something that is relevant to others. Unfortunately, it's often easy to fall into the subsequent anti-pattern, 
+
+### Seek Out Existing Communities
+Find an existing community (online, offline, geographical, affinity, etc.) to discover problems, pain points and potential interventions. You get an automatic userbase with a shared identity who--assuming you're a good listener---already understand the problem your technical intervention is trying to solve. Beware of potential Idea Anti-Patterns such as _Intention Over Practice_, _Management Problems_ or _Niche Tools_.
 
 ### Relevance
 Is the app doing something that matters to people in the field? For example, is it tracking things that matter to the people who are tracking them?  (see "Tracking stuff that only matters to management")
