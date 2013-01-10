@@ -15,7 +15,7 @@ To discuss any of these, please [open an issue](issues), or fork and submit a pu
 ## Design Patterns
 
 ### Civic Wayfinding
-Have a clear "now what" action step. Show people where to put their logical or emotional response: write their reps, letter to the editor, send story to local blog, etc. Instead of trying bulldoze through the walls of bureaucracy, hold people's hand in going up, over, or around them. Take them on a bear hunt:
+Focus on clearly/accessiblity explaining a process and offering a clear "now what" action step. Show people where to put their logical or emotional response: write their reps, letter to the editor, send story to local blog, etc. Instead of trying bulldoze through the walls of bureaucracy, hold people's hand in going up, over, or around them. Take them on a bear hunt:
 
 > We're going on a bear hunt,
 > We're gonna catch a big one,
@@ -29,6 +29,8 @@ Have a clear "now what" action step. Show people where to put their logical or e
 > We've gotta go throught it!
 > Splish splosh, splish splosh.
 
+* Examples: [OpenCounter](https://github.com/codeforamerica/opencounter), [CPS Tiers](http://cpstiers.opencityapps.org/about.html)
+
 ### Go to the People
 
 Engage with people in the places they already go online: Facebook (**FACEBOOK!**), community blogs/forums or existing services (Foursquare, Twitter, etc.) rather than trying to get them to transfer their activities to your new platform. This could include: Facebook or blog widgets; bookmarklets or browser extensions; embeddable content; or messaging services (Twitter, instant messenger, etc.). This can work hand in hand with the _It Alerts You_ pattern.
@@ -36,6 +38,7 @@ Engage with people in the places they already go online: Facebook (**FACEBOOK!**
 ### It Alerts You
 
 Actively reach out to people when an action has taken place or further action is needed; don't expect them to frequently visit your website or open your application. Optimize your email messages for openings/click-throughs or utilize other messaging services (heck, even the postal service!).
+
 * Examples: [CivicsGarden](civicsgarden.herokuapp.com) tweets at you when your plant needs watering or has died.  
 
 ### For Official Adoption
@@ -52,12 +55,16 @@ Engage people in creative, curious or inane thought. Be unlike the "typical" exp
 
 * Examples: [Blockee](http://blockee.org/), [JFDICitizen](http://codeforamerica.github.com/jfdicitizen/)
 
+### Google-fu
+Do keyword research around common questions or phrases that people are googling within a topic/issue-area. Look at the top resulting links and build an app that is both subjectively better (see Design Patterns) *and* has a chance of having a higher Google ranking (or at least share page 1).
+
 ### A business model
-Even as a thought experiment, asking “who would pay money for this and how much?” can crystallize intent
+Even as a thought experiment, asking “who would pay money for this and how much?” can crystallize intent.
 
-### Use it yourself
 
-Like everyday, consistently.
+### Self-tested
+
+An application that you yourself fully and/or regularly use. Assuming you aren't a sociopath, though admitting that you aren't representative of everyone or even many-one, building something that is insanely useful to you can result in something that is relevant to others. Unfortunately, it's often easy to fall into the subsequent anti-pattern, 
 
 ### Relevance
 Is the app doing something that matters to people in the field? For example, is it tracking things that matter to the people who are tracking them?  (see "Tracking stuff that only matters to management")
@@ -67,6 +74,10 @@ Is it doing something that the people who should make it cannot do for time, mon
 
 ### Content before Engineering
 Can you explain a process so that people really understand it well _before_ you build the system to contain the process? Are you an expert in that process and have actually experienced it? See "It's For the little people"
+
+### A Happening
+
+An impermanent experience can be more transformative than a permanent artifact. Build a brief or one-off experience that someone (or a group of people) can go through and be done without any future expectations or collateral. Just because computers are really good at storing stuff doesn't mean you have to capitulate to their silicon whims. May be a subset of the _Reimagine_ pattern.
 
 <a name="designAntiPatterns" />
 ## Design _Anti_-Patterns
@@ -80,18 +91,19 @@ The boringest interaction model ever.
 ### ..and it has SMS
 we all know SMS is code for _those people_. If your conception of the experience of poverty, economic or social marginalization is "doesn't own smartphone", your app isn't serving real needs or context.
 
-### Stuff on a map
-[put a bird on it](http://www.youtube.com/watch?v=0XM3vWJmpfo) and call it a day.
-
 ### Remove humans from the process
 
 ### Games that aren't actually games
 Zynga "badge acquisition" isn't actually "fun” despite being a “game”, it's just addictive.
 
-### Niche tools
-From ReportingOn's [farewell blogpost](http://www.pbs.org/idealab/2010/12/lessons-learned-from-reportingon363.html) about building highly specialized tools for journalists (and applicable to just about any domain, like civic tech): 
+### "Imagine a million users…"
+No, imagine one user (hopefully you); what's the immediate benefit to user #2?
 
-    > Unless what you're building meets a _very_ journalism-specific need, you're probably grinding your gears to build something "for journalists" when they just need a great communication tool, independent of any particular niche or category of users.  
+### They'll find it via Google / if we build it they will come
+Nope. They won’t. 
+
+### And then they will tell their friends
+Nope. They won’t do that either, especially if "they" never came in the first place (see "if we built it they will come"). 
 
 <a name="ideaAntiPatterns" />
 ## Idea _Anti_-Patterns
@@ -107,25 +119,30 @@ Based on the concept of the [Umbrella Today](http://umbrellatoday.com/), this an
 
 * Example: (nearly) all crime maps ever.
 
+### Stuff on a map
+[put a bird on it](http://www.youtube.com/watch?v=0XM3vWJmpfo) and call it a day.
 
-### "Imagine a million users…"
-No, imagine one user (hopefully you); what's the immediate benefit to user #2?
-
-### They'll find it via Google / if we build it they will come
-Nope. They won’t. 
-
-### And then they will tell their friends
-Nope. They won’t do that either, especially if "they" never came in the first place (see "if we built it they will come"). 
 
 ### “It’s interesting” / Pseudo Investigative Journalism
 If it doesn’t have an action step, so what? 
 
-### Tracking stuff that only matters to management
+
+### Niche tools
+From ReportingOn's [farewell blogpost](http://www.pbs.org/idealab/2010/12/lessons-learned-from-reportingon363.html) about building highly specialized tools for journalists (and applicable to just about any domain, like civic tech): 
+
+    > Unless what you're building meets a _very_ journalism-specific need, you're probably grinding your gears to build something "for journalists" when they just need a great communication tool, independent of any particular niche or category of users.  
+
+
+### Management Problems
 Ok, so you now you have a great user roles, permissions and auditing system; how does that make it easier for the people actually accessing and entering data into the system?
 
 ### No competition scan
 
-### It's for the little people
+### Intention over Practice
+Building something that people _want_ to do (or feel like they _should_ do), but ultimately don't.
+ * Examples: The post-conference social network that seems like a great idea _at_ the conference, but subsequently goes unused. The Project/Task Management tool that people would rather agonize over rather than actually doing the project or the task itself
+
+### It's Not for Me
 Not something the user wants to do, but something *you* want the user to do
 You want people to collaborate better, but do *they* want to collaborate better, or more importantly, are they willing to invest in the collaboration
 
