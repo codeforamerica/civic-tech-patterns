@@ -35,15 +35,12 @@ Engage with people in the places they already go online: Facebook (**FACEBOOK!**
 
 ### It Alerts You
 
-Actively reach out to people when an action has taken place or further action is needed; don't expect them to frequently visit your website or open your application. Optimize your email messages for openings/click-throughs or utilize other messaging services
+Actively reach out to people when an action has taken place or further action is needed; don't expect them to frequently visit your website or open your application. Optimize your email messages for openings/click-throughs or utilize other messaging services (heck, even the postal service!).
 * Examples: [CivicsGarden](civicsgarden.herokuapp.com) tweets at you when your plant needs watering or has died.  
 
-### Improve an existing process/activity
-official adoption or replacement of existing resource. You may need to invest more time in social processes (explaining, building trust, gaining buy-in) than engineering.
-
-### Documentation-Based Design
-
-
+### For Official Adoption
+Design your app to be officially adopted or replace an existing resource. You may need to invest more time in social processes (explaining, building trust, gaining buy-in) than engineering; or engineering may need to be focused on maintainance/infrastructure constraints or accessibility ([508 compliance](http://en.wikipedia.org/wiki/Section_508_Amendment_to_the_Rehabilitation_Act_of_1973)!) over raw functionality.
+ * Example: [SR Tracker](https://github.com/codeforamerica/srtracker)
 
 
 
@@ -54,7 +51,6 @@ official adoption or replacement of existing resource. You may need to invest mo
 Engage people in creative, curious or inane thought. Be unlike the "typical" experience or style of engagement with a topic or problem. One potential danger to this pattern is the lack of a clear action step.
 
 * Examples: [Blockee](http://blockee.org/), [JFDICitizen](http://codeforamerica.github.com/jfdicitizen/)
-
 
 ### A business model
 Even as a thought experiment, asking “who would pay money for this and how much?” can crystallize intent
