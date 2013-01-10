@@ -13,7 +13,8 @@ To discuss any of these, please [open an issue](issues), or fork and submit a pu
 
 <a name="designPatterns" />
 ## Design Patterns
-* **Positive feedback**: engage people in re-imagining something for the better (instead of bludgeoning them with data about how much it currently sucks). Make it fun; make it magical. Make it different (in a good way!). Examples: [Blockee](http://blockee.org/), [JFDICitizen](http://codeforamerica.github.com/jfdicitizen/)
+
+* **Positive feedback**: engage people in re-imagining something for the better (instead of bludgeoning them with data about how much it currently sucks). Make it fun; make it magical. Make it different (in a good way!). Examples: [Blockee](http://blockee.org/), [JFDICitizen](http://codeforamerica.github.com/jfdicitizen/)* 
 
 * **Go to where the people already are**: Facebook. Seriously, Facebook. They're on Facebook.
 
@@ -37,6 +38,7 @@ To discuss any of these, please [open an issue](issues), or fork and submit a pu
 
 <a name="ideaPatterns" />
 ## Idea Patterns
+
 * **A business model**: Even as a thought experiment, asking “who would pay money for this and how much?” can crystallize intent
 
 * **Use it yourself**: Like everyday, consistently.
@@ -70,8 +72,13 @@ To discuss any of these, please [open an issue](issues), or fork and submit a pu
 <a name="ideaAntiPatterns" />
 ## Idea _Anti_-Patterns
 
-* **Negative Feedback**: Crime maps, restaurant inspections, waste/fraud/abuse.
+* **Focus on the negative**: Crime maps, restaurant inspections, waste/fraud/abuse. While these may be useful applications, they are overrepresented in civic technology. Also, these applications often do little to challenge people's preconcieved notions, let alone educate them on the process, policies and politics that generated the underlying data in the first place.
     Example: [Don'tEat.At](http://donteat.at/)
+    Further reading: [Crime and Data Leadership](http://www.island94.org/2011/09/crime-and-data-leadership/), 
+    
+* **Umbrellafication**: Based on the concept of the [Umbrella Today](http://umbrellatoday.com/), this anti-pattern describes the boiling down of a complex, nuanced or difficult-to-understood process/dataset into a simplistic analysis or kneejerk action-step. Often combined with _Focus on the Negative_.
+    Example: (nearly) all crime maps ever.
+
 
 * **"Imagine a million users…"**: No, imagine one user (hopefully you); what's the immediate benefit to user #2?
 
