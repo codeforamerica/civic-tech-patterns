@@ -15,7 +15,7 @@ To discuss any of these, please [open an issue](issues), or fork and submit a pu
 ## Design Patterns
 
 ### Civic Wayfinding
-Focus on clearly/accessiblity explaining a process and offering a clear "now what" action step. Show people where to put their logical or emotional response: write their reps, letter to the editor, send story to local blog, etc. Instead of trying bulldoze through the walls of bureaucracy, hold people's hand in going up, over, or around them. Take them on a bear hunt:
+Focus on clearly/accessibly explaining a process and offering a clear "now what" action step. Show people where to put their logical or emotional response: write their reps, letter to the editor, send story to local blog, etc. Instead of trying bulldoze through the walls of bureaucracy, hold people's hand in going up, over, or around them. Take them on a bear hunt:
 
 > We're going on a bear hunt,
 > We're gonna catch a big one,
