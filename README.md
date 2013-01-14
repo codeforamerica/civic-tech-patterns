@@ -56,18 +56,23 @@ Engage people in creative, curious or inane thought. Be unlike the "typical" exp
 ### Google-fu
 Do keyword research around common questions or phrases that people are googling within a topic/issue-area. Look at the top resulting links and build an app that is both subjectively better (see Design Patterns) *and* has a chance of having a higher Google ranking (or at least share page 1).
 
-### A business model
-Even as a thought experiment, asking “who would pay money for this and how much?” can crystallize intent.
-
-
 ### Self-tested
 An application that you yourself fully and/or regularly use. Assuming you aren't a sociopath, though admitting that you aren't representative of everyone or even many-one, building something that is insanely useful to you can result in something that is relevant to others. Unfortunately, it's often easy to fall into the subsequent anti-pattern, 
 
 ### Seek Out Existing Communities
 Find an existing community (online, offline, geographical, affinity, etc.) to discover problems, pain points and potential interventions. You get an automatic userbase with a shared identity who--assuming you're a good listener---already understand the problem your technical intervention is trying to solve. Beware of potential Idea Anti-Patterns such as _Intention Over Practice_, _Management Problems_ or _Niche Tools_.
 
+### Digitize a Process
+Build a tool that makes an existing process easier, faster, better, stronger. Ask, "is someone already doing this, but on paper or by phone?" At the same time, be aware that simply digitizing a process can take valuable social interactions out of what seems like an inefficient process. (See also: _Seek Out Existing Communities_)
+
+### Make it Mobile
+Take information in a closed format and make it available to people when and where they need it. Today, that often means on a smartphone (which people do have -- see _Go to the People_, above, and _...and it has SMS_, an anti-pattern)
+
 ### Relevance
-Is the app doing something that matters to people in the field? For example, is it tracking things that matter to the people who are tracking them?  (see "Tracking stuff that only matters to management")
+Is the app doing something that matters to people in the field? For example, is it tracking things that matter to the people who are tracking them? (see also: "Tracking stuff that only matters to management")
+
+### Have A Business Model
+Even as a thought experiment, asking “who would pay money for this and how much?” can crystallize intent.
 
 ### Bridging tech capacity
 Is it doing something that the people who should make it cannot do for time, money, skill reasons? Maybe they already have tech capacity to do 90% of stuff, but just need help getting data out of the system, etc.
