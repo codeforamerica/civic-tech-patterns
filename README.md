@@ -97,9 +97,10 @@ The boringest interaction model ever.
 we all know SMS is code for _those people_. If your conception of the experience of poverty, economic or social marginalization is "doesn't own smartphone", your app isn't serving real needs or context.
 
 ### Remove humans from the process
+The anti-pattern of _Digitize a Process_, above. Sometimes, taking a process online [cuts efficiency](http://www.nytimes.com/2012/10/09/health/the-ups-and-downs-of-electronic-medical-records-the-digital-doctor.html?pagewanted=all) or removes valuable human communication from the mix. For example, in [Close to the Machine](http://www.worldcat.org/title/close-to-the-machine-technophilia-and-its-discontents-a-memoir/oclc/37277573), Ellen Ullman describes an electronic social services system that lead to less communication between service providers who once traded details with each other by phone. 
 
 ### Games that aren't actually games
-Zynga "badge acquisition" isn't actually "fun” despite being a “game”, it's just addictive.
+Zynga-style "badge acquisition" isn't actually "fun” despite being a “game”, it's just addictive. And it usually isn't even addictive -- no one will want to earn badges for shoveling their sidewalk, unless it ties into a larger system that people are already using (see _Go to the People_, above.)
 
 ### "Imagine a million users…"
 No, imagine one user (hopefully you); what's the immediate benefit to user #2?
@@ -119,32 +120,36 @@ Crime maps, restaurant inspections, waste/fraud/abuse. While these may be useful
   * Example: [Don'tEat.At](http://donteat.at/)
   * Further reading: [Crime and Data Leadership](http://www.island94.org/2011/09/crime-and-data-leadership/), 
     
-### Umbrellafication
-Based on the concept of the [Umbrella Today](http://umbrellatoday.com/), this anti-pattern describes the boiling down of a complex, nuanced or difficult-to-understood process/dataset into a simplistic analysis or kneejerk action-step. Often combined with _Focus on the Negative_.
+### Simplify the Complex
+This anti-pattern describes the boiling down of a complex, nuanced or difficult-to-understood process/dataset into a simplistic analysis or kneejerk action-step. Often combined with _Focus on the Negative_.
 
 * Example: (nearly) all crime maps ever.
 
-### Stuff on a map
-[put a bird on it](http://www.youtube.com/watch?v=0XM3vWJmpfo) and call it a day.
+### Correlation = Causation 
+Just because you can show crime rates on the same map as all the liquor licenses in your city doesn't mean you should. Correlation doesn't equal causation, and unless you have a good story to tell along with your data visualization, don't lead people astray.  
 
+### Stuff on a map
+[put a bird on it](http://www.youtube.com/watch?v=0XM3vWJmpfo) and call it a day. Ask, "What value does a map give?" -- a list, chart, or just plain text might be much more useful for your readers. 
 
 ### “It’s interesting” / Pseudo Investigative Journalism
-If it doesn’t have an action step, so what? 
+Publish with purpose. 
 
+### The Dead End
+If it doesn’t have an action step, so what? 
 
 ### Niche tools
 From ReportingOn's [farewell blogpost](http://www.pbs.org/idealab/2010/12/lessons-learned-from-reportingon363.html) about building highly specialized tools for journalists (and applicable to just about any domain, like civic tech): 
 
     > Unless what you're building meets a _very_ journalism-specific need, you're probably grinding your gears to build something "for journalists" when they just need a great communication tool, independent of any particular niche or category of users.  
 
-
 ### Management Problems
 Ok, so you now you have a great user roles, permissions and auditing system; how does that make it easier for the people actually accessing and entering data into the system?
 
 ### No competition scan
+Make sure you know what's already been done. Where do you fit? Where can you add value? 
 
 ### Intention over Practice
-Building something that people _want_ to do (or feel like they _should_ do), but ultimately don't.
+You might be tempted to build something that people _want_ to do (or feel like they _should_ do), but ultimately don't.
  * Examples: The post-conference social network that seems like a great idea _at_ the conference, but subsequently goes unused. The Project/Task Management tool that people would rather agonize over rather than actually doing the project or the task itself
 
 ### It's Not for Me
