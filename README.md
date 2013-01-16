@@ -94,7 +94,7 @@ Anti-patterns aren't inherently bad. The are often difficult to achieve because 
 A civic CMS might just be what you need if you already have an active online community that wants to take another step. For example, if your neighbors already all read your blog for events, but you want to make it easy for them to add their own. Just be wary of doing it all at once. 
 
   > “Liberty cannot be established without content, nor content without content moderation.” 
-  > <br><cite>– de Tocquiville</cite> 
+  > <br><cite>– de Tocqueville</cite> 
 
 ### ..and it has SMS
 we all know SMS is code for _those people_. If your conception of the experience of poverty, economic or social marginalization is "doesn't own smartphone", your app isn't serving real needs or context.
