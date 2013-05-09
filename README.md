@@ -142,7 +142,7 @@ If it doesn’t have an action step, so what? In some cases, it's fine if a page
 ### Niche tools
 From ReportingOn's [farewell blogpost](http://www.pbs.org/idealab/2010/12/lessons-learned-from-reportingon363.html) about building highly specialized tools for journalists (and applicable to just about any domain, like civic tech): 
 
-    > Unless what you're building meets a _very_ journalism-specific need, you're probably grinding your gears to build something "for journalists" when they just need a great communication tool, independent of any particular niche or category of users.  
+> Unless what you're building meets a _very_ journalism-specific need, you're probably grinding your gears to build something "for journalists" when they just need a great communication tool, independent of any particular niche or category of users.  
 
 ### Management Problems
 Ok, so you now you have a great user roles, permissions and auditing system; how does that make it easier for the people actually accessing and entering data into the system?
