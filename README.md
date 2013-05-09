@@ -33,7 +33,7 @@ Focus on clearly/accessibly explaining a process and offering a clear "now what"
 
 ### Go to the People
 
-Engage with people in the places they already go online: Facebook (**FACEBOOK!**), community blogs/forums or existing services (Foursquare, Twitter, etc.) rather than trying to get them to transfer their activities to your new platform. This could include: Facebook or blog widgets; bookmarklets or browser extensions; embeddable content; or messaging services (Twitter, instant messenger, etc.). This can work hand in hand with the _It Alerts You_ pattern.
+Engage with people in the places they already go online: Facebook (**FACEBOOK!**), community blogs/forums or existing services (Foursquare, Twitter, etc.) rather than trying to get them to transfer their activities to your new platform. This could include: Facebook or blog widgets; bookmarklets or browser extensions; embeddable content; or messaging services (Twitter, instant messenger, etc.). This can work hand in hand with the *It Alerts You* pattern.
 
 ### It Alerts You
 
@@ -53,57 +53,56 @@ Engage people in creative, curious or inane thought. Be unlike the "typical" exp
 
 * Examples: [Blockee](http://blockee.org/), [JFDICitizen](http://codeforamerica.github.com/jfdicitizen/)
 
-### Google-fu
-Do keyword research around common questions or phrases that people are googling within a topic/issue-area. Look at the top resulting links and build an app that is both subjectively better (see Design Patterns) *and* has a chance of having a higher Google ranking (or at least share page 1).
+### Do your research
+Research common questions or phrases that people are googling within a topic/issue-area. Look at the top resulting links and build an app that is both subjectively better than the competition *and* has a chance of having a higher Google ranking. Google even has a [keyword research tool](https://adwords.google.com/select/KeywordToolExternal). 
 
 ### Self-tested
-An application that you yourself fully and/or regularly use. Assuming you aren't a sociopath, though admitting that you aren't representative of everyone or even many-one, building something that is insanely useful to you can result in something that is relevant to others. Unfortunately, it's often easy to fall into the subsequent anti-pattern, 
+Build an application that you yourself fully and/or regularly use. Assuming you aren't a sociopath, though admitting that you aren't representative of everyone or even many-one, building something that is insanely useful to you can result in something that is relevant to others. Unfortunately, it's often easy to fall into the subsequent anti-pattern, 
 
 ### Seek Out Existing Communities
-Find an existing community (online, offline, geographical, affinity, etc.) to discover problems, pain points and potential interventions. You get an automatic userbase with a shared identity who--assuming you're a good listener---already understand the problem your technical intervention is trying to solve. Beware of potential Idea Anti-Patterns such as _Intention Over Practice_, _Management Problems_ or _Niche Tools_.
+Find an existing community (online, offline, geographical, affinity, etc.) to discover problems, pain points and potential interventions. You get an automatic userbase with a shared identity who--assuming you're a good listener---already understand the problem your technical intervention is trying to solve. Beware of potential Idea Anti-Patterns such as *Intention Over Practice*, *Management Problems* or *Niche Tools*.
 
 ### Digitize a Process
-Build a tool that makes an existing process easier, faster, better, stronger. Ask, "is someone already doing this, but on paper or by phone?" At the same time, be aware that simply digitizing a process can take valuable social interactions out of what seems like an inefficient process. (See also: _Seek Out Existing Communities_)
+Build a tool that makes an existing process easier, faster, better, stronger. Ask, "is someone already doing this, but on paper or by phone?" At the same time, be aware that simply digitizing a process can take valuable social interactions out of what seems like an inefficient process. (See also: *Seek Out Existing Communities*)
 
 ### Make it Mobile
-Take information in a closed format and make it available to people when and where they need it. Today, that often means on a smartphone (which people do have -- see _Go to the People_, above, and _...and it has SMS_, an anti-pattern)
+Take information in a closed format and make it available to people when and where they need it. Today, that often means on a smartphone (which people do have -- see *Go to the People*, above, and *...and it has SMS*, an anti-pattern)
 
 ### Relevance
-Is the app doing something that matters to people in the field? For example, is it tracking things that matter to the people who are tracking them? (see also: "Tracking stuff that only matters to management")
+Is the app doing something that matters to people in the field? For example, is it tracking things that matter to the people who are tracking them? Are you only tracking stuff that only matters to management?
 
 ### Have A Business Model
-Even as a thought experiment, asking “who would pay money for this and how much?” can crystallize intent.
+Even as a thought experiment, asking “who would pay money for this and how much?” can crystallize intent. It'll help you find your audience and your value. 
 
 ### Bridging tech capacity
 Is it doing something that the people who should make it cannot do for time, money, skill reasons? Maybe they already have tech capacity to do 90% of stuff, but just need help getting data out of the system, etc.
 
 ### Content before Engineering
-Can you explain a process so that people really understand it well _before_ you build the system to contain the process? Are you an expert in that process and have actually experienced it? See "It's For the little people"
+Can you explain a process so that people really understand it well *before* you build the system to contain the process? Are you an expert in that process and have actually experienced it? See "It's For the little people"
 
 ### A Happening
-
-An impermanent experience can be more transformative than a permanent artifact. Build a brief or one-off experience that someone (or a group of people) can go through and be done without any future expectations or collateral. Just because computers are really good at storing stuff doesn't mean you have to capitulate to their silicon whims. May be a subset of the _Reimagine_ pattern.
+An impermanent experience can be more transformative than a permanent artifact. Build a brief or one-off experience that someone (or a group of people) can go through and be done without any future expectations or collateral. Just because computers are really good at storing stuff doesn't mean you have to capitulate to their silicon whims. May be a subset of the *Reimagine* pattern.
 
 <a name="designAntiPatterns" />
 ## Design _Anti_-Patterns
 Anti-patterns aren't inherently bad. The are often difficult to achieve because their success relies heavily on non-tech stuff like community outreach, content creation and community management. Or, they might just be easy to implement badly. Think twice about adpoting one of thesse patterns. 
 
 ### Civic CMS
-"I need a site that has a neighborhood community calendar and a social network and a blog and a map and..." The boringest interaction model ever. These sites often end up abandoned: blogs with no posts for months, empty calendars, and spam-filled comments. Before starting one, ask "Who's going to update it regularly?" and "Why will someone read it?" Instead, consider starting a Facebook page, mailing list, Google calendar, or Twitter feed -- see the _Go to the People_ pattern,above. 
+"I need a site that has a neighborhood community calendar and a social network and a blog and a map and..." The boringest interaction model ever. These sites often end up abandoned: blogs with no posts for months, empty calendars, and spam-filled comments. Before starting one, ask "Who's going to update it regularly?" and "Why will someone read it?" Instead, consider starting a Facebook page, mailing list, Google calendar, or Twitter feed -- see the *Go to the People* pattern,above. 
 
-A civic CMS might just be what you need if you already have an active online community that wants to take another step. For example, if your neighbors already all read your blog for events, but you want to make it easy for them to add their own. Just be wary of doing it all at once. 
+A civic CMS might just be what you need if you already have an active online community that wants to take another step. For example, if your neighbors already all read your blog for events, but you want to make it easy for them to add their own, a CMS could be the solution. Just be wary of trying to do it all at once. 
 
   > “Liberty cannot be established without content, nor content without content moderation.” 
   > <br><cite>– de Tocqueville</cite> 
 
 ### ..and it has SMS
-we all know SMS is code for _those people_. If your conception of the experience of poverty, economic or social marginalization is "doesn't own smartphone", your app isn't serving real needs or context.
+We all know SMS is code for *those people*. If your conception of the experience of poverty, economic or social marginalization is "doesn't own smartphone", your app isn't serving real needs or context.
 
 ### Remove humans from the process
-The anti-pattern of _Digitize a Process_, above. Sometimes, taking a process online [cuts efficiency](http://www.nytimes.com/2012/10/09/health/the-ups-and-downs-of-electronic-medical-records-the-digital-doctor.html?pagewanted=all) or removes valuable human communication from the mix. For example, in [Close to the Machine](http://www.worldcat.org/title/close-to-the-machine-technophilia-and-its-discontents-a-memoir/oclc/37277573), Ellen Ullman describes an electronic social services system that lead to less communication between service providers who once traded details with each other by phone. 
+The anti-pattern of *Digitize a Process*, above. Sometimes, taking a process online [cuts efficiency](http://www.nytimes.com/2012/10/09/health/the-ups-and-downs-of-electronic-medical-records-the-digital-doctor.html?pagewanted=all) or removes valuable human communication from the mix. For example, in [Close to the Machine](http://www.worldcat.org/title/close-to-the-machine-technophilia-and-its-discontents-a-memoir/oclc/37277573), Ellen Ullman describes an electronic social services system that lead to less communication between service providers who once traded details with each other by phone. 
 
 ### Games that aren't actually games
-Zynga-style "badge acquisition" isn't actually "fun” despite being a “game”, it's just addictive. And it usually isn't even addictive -- no one will want to earn badges for shoveling their sidewalk, unless it ties into a larger system that people are already using (see _Go to the People_, above.)
+Zynga-style "badge acquisition" isn't actually "fun” despite being a “game”, it's just addictive. And it usually isn't even addictive -- no one will want to earn badges for shoveling their sidewalk, unless it ties into a larger system that people are already using (see *Go to the People*, above.)
 
 ### "Imagine a million users…"
 No, imagine one user (hopefully you); what's the immediate benefit to user #2?
@@ -124,7 +123,7 @@ Crime maps, restaurant inspections, waste/fraud/abuse. While these may be useful
   * Further reading: [Crime and Data Leadership](http://www.island94.org/2011/09/crime-and-data-leadership/), 
     
 ### Simplify the Complex
-This anti-pattern describes the boiling down of a complex, nuanced or difficult-to-understood process/dataset into a simplistic analysis or kneejerk action-step. Often combined with _Focus on the Negative_.
+This anti-pattern describes the boiling down of a complex, nuanced or difficult-to-understood process/dataset into a simplistic analysis or kneejerk action-step. Often combined with *Focus on the Negative*.
 
 * Example: (nearly) all crime maps ever.
 
@@ -132,13 +131,13 @@ This anti-pattern describes the boiling down of a complex, nuanced or difficult-
 Just because you can show crime rates on the same map as all the liquor licenses in your city doesn't mean you should. Correlation doesn't equal causation, and unless you have a good story to tell along with your data visualization, don't lead people astray.  
 
 ### Stuff on a map
-[put a bird on it](http://www.youtube.com/watch?v=0XM3vWJmpfo) and call it a day. Ask, "What value does a map give?" -- a list, chart, or just plain text might be much more useful for your readers. 
+[Put a bird on it](http://www.youtube.com/watch?v=0XM3vWJmpfo) and call it a day. Ask, instead, "what value does a map give?" A list, chart, or just plain text might be much more useful for your readers. 
 
 ### “It’s interesting” / Pseudo Investigative Journalism
-Publish with purpose. 
+Publish with purpose. Don't simply move a public dataset online because it exists. Don't be that newspaper that [published the home addresses](http://www.nytimes.com/2013/01/07/nyregion/after-pinpointing-gun-owners-journal-news-is-a-target.html?pagewanted=all) of gun owners "just because."  The exception is if you're doing it as an exercise in learning a technology, which is cool. 
 
 ### The Dead End
-If it doesn’t have an action step, so what? 
+If it doesn’t have an action step, so what? In some cases, it's fine if a page is a dead-end. But you probably brought the user to the page for a reason. 
 
 ### Niche tools
 From ReportingOn's [farewell blogpost](http://www.pbs.org/idealab/2010/12/lessons-learned-from-reportingon363.html) about building highly specialized tools for journalists (and applicable to just about any domain, like civic tech): 
@@ -149,7 +148,7 @@ From ReportingOn's [farewell blogpost](http://www.pbs.org/idealab/2010/12/lesson
 Ok, so you now you have a great user roles, permissions and auditing system; how does that make it easier for the people actually accessing and entering data into the system?
 
 ### No competition scan
-Make sure you know what's already been done. Where do you fit? Where can you add value? 
+Make sure you know what's already been done. Where do you fit? Where can you add value? Are the existing sites good enough? There are plenty of untapped opportunities -- it might be better to start there. Then again, you do want to *Seek Out Existing Communities*.  
 
 ### Intention over Practice
 You might be tempted to build something that people _want_ to do (or feel like they _should_ do), but ultimately don't.
@@ -159,11 +158,11 @@ You might be tempted to build something that people _want_ to do (or feel like t
 Not something the user wants to do, but something *you* want the user to do
 You want people to collaborate better, but do *they* want to collaborate better, or more importantly, are they willing to invest in the collaboration
 
-
 ### It's in the algorithm / it's an engineering problem 
+The problem you see -- perhaps one of crushing bureaucratic incompetence or disorganized citizens -- probably can't be fixed with a website. That said, a digital tool might be designed *For Official Adoption*. 
 
 ### They’ll visit it all the time
-yep, Google, Facebook, the New York Times and your app.
+Apps on my home screen: Google, Facebook, the New York Times. Apps that will never be on my home screen: yours.
 
 <a name="typesOfCivicApps" />
 ## Types of Civic Applications
