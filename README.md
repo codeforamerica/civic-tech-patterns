@@ -8,7 +8,7 @@ In the spirit of [Wikipatterns](http://www.wikipatterns.com/display/wikipatterns
 
 ### Usage and Contributions
 
-To discuss any of these, please [open an issue](issues), or fork and submit a pull-request.
+To discuss any of these, please [open an issue](https://github.com/codeforamerica/civic-tech-patterns/issues), or fork and submit a pull-request.
 
 
 <a name="designPatterns" />
