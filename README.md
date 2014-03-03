@@ -118,9 +118,6 @@ This anti-pattern describes the boiling down of a complex, nuanced or difficult-
 ### Correlation = Causation 
 Just because you can show crime rates on the same map as all the liquor licenses in your city doesn't mean you should. Correlation doesn't equal causation, and unless you have a good story to tell along with your data visualization, don't lead people astray.  
 
-### Stuff on a map
-[Put a bird on it](http://www.youtube.com/watch?v=0XM3vWJmpfo) and call it a day. Ask, instead, "what value does a map give?" A list, chart, or just plain text might be much more useful for your readers. 
-
 ### “It’s interesting” / Pseudo Investigative Journalism
 Publish with purpose. Don't simply move a public dataset online because it exists. Don't be that newspaper that [published the home addresses](http://www.nytimes.com/2013/01/07/nyregion/after-pinpointing-gun-owners-journal-news-is-a-target.html?pagewanted=all) of gun owners "just because."  The exception is if you're doing it as an exercise in learning a technology, which is cool. 
 
