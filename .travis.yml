@@ -1,0 +1,35 @@
+language: ruby
+rvm:
+  - 2.0.0
+env:
+  global:
+    # See html_generator/scripts/generate-key-mac.sh
+    - secure: "Po9JQCPGko0dWF1AaYYZlsbEpV3kgAh28821dBHRLDwl6vg7JTyTAvjTjEvbsqYTdfD6y0VbMARIKf+RTXy1azdlAm4yp8a8j6UX2IWuFJ6Om59y2TdPFpr7Qs8WR/G/CrivtxUbEHYfDPeIJFDo9BaEjpwe/ysmp4QsaAVMPxw="
+    - secure: "fCnrHwRUXKDBGNAH4ODL4EJFEArfT798XAdY4Ltdp2gnXOtQnVVI+xZpKMfGE5txFhvTpujJvw4vsgaeAwck2pCJm1NY0tBoVix+dVoKAV/gs7tQGzheAF7jY5KfKzFaY6606rWbdxxo06W4Ka3XI0oqulqnnA5AL0WiUJWRc/Y="
+    - secure: "mw9gPtxHFOwRteSJDo4kv0XkgbwAoGCjOQg90WMUOAuUhi2gpyo0B8lZkYAz1Duvq5zyQaJCX6eLIJatJmn7KPu9VrlwlMTufp5BPkRsAOzK9QGEuQHYuqnQL0Lh4zk2dol5GJcKXxzPi/BkqIH+bbe8B8pY+4ojLcC8h1xtMJA="
+    - secure: "ozHDTfaq3N42U0qpQ+QJBpXHOyzKFMruOsB6F1PAvMnewl+gXkVwvrGzxyytcXdEEprC6+M93zxaHBT16wLrarRlZjMhmwOteL5Zeqsrbaa7DjdZnpLJ24SFnfe3d0PyWhHYQTuh1R6ThIFl7v65/QgbDuViktEqutyu3Wmt6lY="
+    - secure: "DMsTLVi7sY1mroFKfHaiZX+fbkDK3PBdZlxr+RYQQZUNegrsP3ff7zyLdfKIqRFLegZvNQZ0qwlWqhT6wujAkKOf9o69mAYJ2Aq/6DSK8gA18rWNs6Ppb0pmR4Ta+d/VT3k4PaZbbPrLmMhQFWWsodtjIiM9NtsqazAiIXE5SSU="
+    - secure: "vfuXrmMPmZJ3UlX8olgf5XMtt6HmnzcL6HHU7Spn/kZe1v8Ox+B6/evhtQ8/Gsydh0K+W4zOiMaH9LVhHXFZ6Yflw+nTrRLaHYdY1MJdJAS7WvfVPatrnCc8KdZQSawUW5Fr91QbT6Ho2aJiF0CJ4fKhRmfULq7LiEeQ+N5DaV4="
+    - secure: "alezYiM7PC0mvWtUgZRRlTbBMUp518cTAjXYKJ3GvlcoiAXA7Av0jX4fG2jxQ7Gzwo7ReCXR018RRaK4dAdy9o1nuoG0eI6LRCdBQWdTGI/29Y2nsr3THToOiSIIEJNyzHXhlFGKKJ7V/P0zbxRqgwO6sRIARyAHb5tRotoZkLQ="
+    - secure: "lpU3oZQtT/bMwxE9r8L6kmZstFWa3s71woQTDp+AfVAQ76DEPz9mKARvd6aCWgFN8ZFW00hzSIEHJVkjYBBTld9Spvgi7jkgpbym/jRRyITOfKpl1X5gxq04abrpZuM579JrfUc8tSyF94KdL1tgHl0L4NBLzuNby1oyERO+JwU="
+    - secure: "zPjPWBjtpiTsHePeYZHNU0Svl8DVotCsl61GW5wl7gTSEsm8KANMwOcGxjTyYWy8rMVpQOnDY0JUP8E56GIrX9xFu59xJTO/PL/e/DcvRa1DFDRjGwEaCPSOe9UVpWvMIYNeMvCueasBpQsaHNmJLu/j8quADbI/0U0J1XWq3AI="
+    - secure: "eCclHoQqw5x1GwCeNMsFw+KPR3BQli/P1fbVIAPBmfXi0LoZwIJi/df6Lgrc76BRHfDVSeORYapE/X1JCSWUk4YNT4gmrZ5T/Q226EMH7SQKWwrrj/ABcky/OzWB90zqp/Ky+FY8exWSo3aiEgnu3n5RZIKtw0MImUUOdJGGFcw="
+    - secure: "dRasnrwCtXZCAkKr9KHGdWNfYSXRM3MD+2cAqH2x3xnQ+7Ko6p8fJAN6zAI1hNkObiC1nBoPKo271vj0VOpYzUT/6wpF+F1T3SJj/xUPu7yXDXgoSqWhI1nCEv/Lbi/E4uKuVE7jTLjVtJHjlayYPZf2bHwHDdyb8Zp4/jFE53E="
+    - secure: "dLolWbX3nmQ+0IIqJQMZBd0PP38+/X96zxXv7qkij9uFfDVMVR9vsc9z8nJBmQt9Roa5vZzsf6reWkIJbo9SyzdbeCixWSOW64xhM2PBzUuOu/t67iur1WxpN3SBYUUVG8Hxrz9YSKdX9KAV8cQgbUPz3HPwqoAXGXtPatwBzfY="
+    - secure: "OnVpKqz3Cet6PcdQZutGSC37MATOfEwUo/mWhno9Lm7gplUklRjkF9/KJdGhDlqjIZk9/UWoFOkbU/owFYmVnT7/rHRfjdgh0EeneZAT3taHq42n7/FRK+2AT3iV+ktW/GAYcOqU85/LnUA/GSJ8F16iGjiqmFDYYtOuaf1c/DM="
+    - secure: "RJHBOX21raN2ZM5QNtaQvIuxPRUNpauXupMCyL6MlO6UNVFAZGw1TBpAak/cf7siF8F+LGXSva6+GXnBexSCitmnnHtJVV+Fq6afNvNTIqRx0BT8a/fsV51PEPZpbjKey2RoJFWEgS6FrsjPQjX6/7ZJsT4U7dJkF5FpaDV9a1E="
+    - secure: "D2cChy4jNSYqQqmDCVBDUbRw6Ccibw1F+erIFHx0FUJGO5GJttaYXiHnX27MDRviycqzoALiOgsgUz4Y9S0/dupxAGJ42ZubBN02GkbgShnNWQ2EYWwWqJ/7RxcTcKQnQBQVzXCc07bpJjXUOW0tKUwhp4r46xpDGKM45nHFO4A="
+    - secure: "l5jgBZiljRmwHJbyi2wODpSSYowYOIPhSAB0mosutYv+RRXa6E+PE0S5csgSQKkt7DgnmO2zB88Lo2Cp/vomQUtsFfD3V6B0Y4GhbxOxRTByL1ljq/cwNpw0n6ehMpoFO3bOloVI1xC1fmlO6q5Wucg4OgtTp7Viz4uyNlripzQ="
+    - secure: "gr2QWY0LjXYqTE0fp5Vqw45HezRCJvyMz2zsoCHJbopuXIdTHNTGRT2I3b7ykl3xCSdEusmUhBxx3+wU015d2hBnh2rOqQJKIhvEoJoV9JIblPlqEUXqqmJswh/sjrtVogfgJSBp/diDqrcHtg24s+XLpyR51kEKLEnv/bW67NQ="
+    - secure: "t+dsj9/SziEKmBC/KlGoHV8Dn5iQDMAoWRFJk5eUG5cvQdDoN/cuc5a101f5doinUwj2FOfhE6g4AOCM3r8pnKmXEtneuPccUCQ+7tuOIEQae+snPlObCr+oDZEnSHaaT+6iwA2ToTp8bdDdleZptGiogzC8uBFsZWKHZe9k3V0="
+    - secure: "lY30kB7WgyoRnPoItzbjpUaWPL0+KphEfU7j/VYcNIp818cfeTBfkDanc5PZSuqsBhA4IIB0glSdXESEfq9fueXEtP3CxqQexmy3LMpyEOcHkcfdUhqvNIw5wEY0bGLyNjTfSdib5kfETS/OMlv8OMiYhvGgo+nwnDftb/Ec7vY="
+    - secure: "cj7DMBUuzKjflfsajB5+GbqCFCq2qCxFKvArajOwdP9I0+K6jA1IjBoUC4IF3waZaGyGaPFNfdWvAcrHwQMjyVIitJAKfFNqtUydA4xFgO4SdnUwdYe/y6r4tKQ9NwnJxGg9JFmVC8vyM/XC01RzbIOSLaOR42psix28lU46kYw="
+    - secure: "xLjf0sQrH3popFeZ7p0IU04TkR+wBoEps2xIIDG+sy899Y3qREpKKILwxtykw2u8/zYDeNfsM8GEXHEuJFJOK5LR/q7LhpdZD8WQM2DxQTzL07x3IYad9dGVe5iRjThgOdGRJIdCsrRnwenBvTQzVQ2ScBQKwfk2U0HlERdyj/E="
+    - secure: "2zRVL6xFYH1jbksMDKu6Hjd1Rl5B+nY63asYkASb5lvEeWVp+bzeNWTevO6b2k7U9Wxt7epGuAr3Zwli99hwu4pnJ6v22q1xcBJFNc74PDOD1KmgeC5anYFtvrGlXNLkOB4GxmzTJEzsc0MJ8nd0qm/hRt/G81+VDCqtnqiuoOs="
+    - secure: "cp7haAIavMegt4caNqa6caXnhypQK/k8yz1Ztuvqzs/2bHa2+rdB2+U2urVHdXlTn1L0zXTMTblG50I8Lxroh2GaJtIQzzQ0B2PSrJAvPAWt7tHu4ewx6nVyt8IO2VosuD0P9Lh8JhEIv14hQgPr2F4bK/yGyQ16vYCkPs3UzM0="
+install:
+  - cd html_generator
+  - bundle install --deployment --path=${BUNDLE_PATH:-vendor/bundle}
+script: bundle exec middleman build
+after_success:
+  - if [[ "$TRAVIS_BRANCH" = "master" ]]; then ./scripts/predeploy.sh; rake publish; fi
