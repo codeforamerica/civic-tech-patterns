@@ -101,15 +101,6 @@ The anti-pattern of *Digitize a Process*, above. Sometimes, taking a process onl
 ### Games that aren't actually games
 Zynga-style "badge acquisition" isn't actually "fun” despite being a “game”, it's just addictive. And it usually isn't even addictive -- no one will want to earn badges for shoveling their sidewalk, unless it ties into a larger system that people are already using (see *Go to the People*, above.)
 
-### "Imagine a million users…"
-No, imagine one user (hopefully you); what's the immediate benefit to user #2?
-
-### They'll find it via Google / if we build it they will come
-Nope. They won’t. 
-
-### And then they will tell their friends
-Nope. They won’t do that either, especially if "they" never came in the first place (see "if we built it they will come"). 
-
 <a name="ideaAntiPatterns" />
 ## Idea _Anti_-Patterns
 
