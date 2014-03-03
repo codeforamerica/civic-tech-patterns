@@ -95,9 +95,6 @@ A civic CMS might just be what you need if you already have an active online com
   > “Liberty cannot be established without content, nor content without content moderation.” 
   > <br><cite>– de Tocqueville</cite> 
 
-### ..and it has SMS
-We all know SMS is code for *those people*. If your conception of the experience of poverty, economic or social marginalization is "doesn't own smartphone", your app isn't serving real needs or context.
-
 ### Remove humans from the process
 The anti-pattern of *Digitize a Process*, above. Sometimes, taking a process online [cuts efficiency](http://www.nytimes.com/2012/10/09/health/the-ups-and-downs-of-electronic-medical-records-the-digital-doctor.html?pagewanted=all) or removes valuable human communication from the mix. For example, in [Close to the Machine](http://www.worldcat.org/title/close-to-the-machine-technophilia-and-its-discontents-a-memoir/oclc/37277573), Ellen Ullman describes an electronic social services system that lead to less communication between service providers who once traded details with each other by phone. 
 
