@@ -1,0 +1,292 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <!-- Always force latest IE rendering engine or request Chrome Frame -->
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title>The Middleman</title>
+
+    <link href="stylesheets/application-f72713e4.css" media="screen" rel="stylesheet" type="text/css" />
+    <script src="javascripts/application-b2e37d92.js" type="text/javascript"></script>
+  </head>
+
+  <body class="index">
+    <a href="#usage_and_contributions">Usage and Contributions</a>
+<a href="#civic_wayfinding">Civic Wayfinding</a>
+<a href="#go_to_the_people">Go to the People</a>
+<a href="#it_alerts_you">It Alerts You</a>
+<a href="#for_official_adoption">For Official Adoption</a>
+<a href="#reimagine">Reimagine</a>
+<a href="#do_your_research">Do your research</a>
+<a href="#self-tested">Self-tested</a>
+<a href="#seek_out_existing_communities">Seek Out Existing Communities</a>
+<a href="#digitize_a_process">Digitize a Process</a>
+<a href="#make_it_mobile">Make it Mobile</a>
+<a href="#relevance">Relevance</a>
+<a href="#have_a_business_model">Have A Business Model</a>
+<a href="#bridging_tech_capacity">Bridging tech capacity</a>
+<a href="#content_before_engineering">Content before Engineering</a>
+<a href="#a_happening">A Happening</a>
+<a href="#civic_cms">Civic CMS</a>
+<a href="#..and_it_has_sms">..and it has SMS</a>
+<a href="#remove_humans_from_the_process">Remove humans from the process</a>
+<a href="#games_that_aren&amp;#x27;t_actually_games">Games that aren't actually games</a>
+<a href="#&amp;quot;imagine_a_million_users…&amp;quot;">"Imagine a million users…"</a>
+<a href="#they&amp;#x27;ll_find_it_via_google_/_if_we_build_it_they_will_come">They'll find it via Google / if we build it they will come</a>
+<a href="#and_then_they_will_tell_their_friends">And then they will tell their friends</a>
+<a href="#focus_on_the_negative">Focus on the negative</a>
+<a href="#simplify_the_complex">Simplify the Complex</a>
+<a href="#correlation_=_causation">Correlation = Causation</a>
+<a href="#stuff_on_a_map">Stuff on a map</a>
+<a href="#“it’s_interesting”_/_pseudo_investigative_journalism">“It’s interesting” / Pseudo Investigative Journalism</a>
+<a href="#the_dead_end">The Dead End</a>
+<a href="#niche_tools">Niche tools</a>
+<a href="#management_problems">Management Problems</a>
+<a href="#no_competition_scan">No competition scan</a>
+<a href="#intention_over_practice">Intention over Practice</a>
+<a href="#it&amp;#x27;s_not_for_me">It's Not for Me</a>
+<a href="#it&amp;#x27;s_in_the_algorithm_/_it&amp;#x27;s_an_engineering_problem">It's in the algorithm / it's an engineering problem</a>
+<a href="#they’ll_visit_it_all_the_time">They’ll visit it all the time</a>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body>
+<p>In the spirit of <a href="http://www.wikipatterns.com/display/wikipatterns/Wikipatterns">Wikipatterns</a>, this is a collection of <a href="http://en.wikipedia.org/wiki/Pattern_language">patterns and anti-patterns</a> for describing common practices that may help or hinder the conception or design of your civic technology.</p>
+
+<ol>
+<li><a href="#designPatterns">Design Patterns</a></li>
+<li><a href="#ideaPatterns">Idea Patterns</a></li>
+<li><a href="#designAntiPatterns">Design Anti-Patterns</a></li>
+<li><a href="#ideaAntiPatterns">Idea Anti-Patterns</a></li>
+<li><a href="#typesOfCivicApps">Types of Civic Applications</a></li>
+</ol>
+<h3 id="usage_and_contributions">Usage and Contributions</h3>
+
+<p>To discuss any of these, please <a href="https://github.com/codeforamerica/civic-tech-patterns/issues">open an issue</a>, or fork and submit a pull-request.</p>
+
+<p><a name="designPatterns"></a></p>
+
+<h2 id="design_patterns">Design Patterns</h2>
+
+<h3 id="civic_wayfinding">Civic Wayfinding</h3>
+
+<p>Focus on clearly/accessibly explaining a process and offering a clear "now what" action step. Show people where to put their logical or emotional response: write their reps, letter to the editor, send story to local blog, etc. Instead of trying bulldoze through the walls of bureaucracy, hold people's hand in going up, over, or around them. Take them on a bear hunt:</p>
+
+<blockquote>
+<p>We're going on a bear hunt,
+We're gonna catch a big one,
+What a beautiful day,
+We're not scared.
+Oh oh!
+A river,
+A deep, cold river.
+We can't go over it,
+We can't go under it,
+We've gotta go throught it!
+Splish splosh, splish splosh.</p>
+</blockquote>
+
+<ul>
+<li>Examples: <a href="https://github.com/codeforamerica/opencounter">OpenCounter</a>, <a href="http://cpstiers.opencityapps.org/about.html">CPS Tiers</a>
+</li>
+</ul>
+<h3 id="go_to_the_people">Go to the People</h3>
+
+<p>Engage with people in the places they already go online: Facebook (<strong>FACEBOOK!</strong>), community blogs/forums or existing services (Foursquare, Twitter, etc.) rather than trying to get them to transfer their activities to your new platform. This could include: Facebook or blog widgets; bookmarklets or browser extensions; embeddable content; or messaging services (Twitter, instant messenger, etc.). This can work hand in hand with the <em>It Alerts You</em> pattern.</p>
+
+<h3 id="it_alerts_you">It Alerts You</h3>
+
+<p>Actively reach out to people when an action has taken place or further action is needed; don't expect them to frequently visit your website or open your application. Optimize your email messages for openings/click-throughs or utilize other messaging services (heck, even the postal service!).</p>
+
+<ul>
+<li>Examples: <a href="civicsgarden.herokuapp.com">CivicsGarden</a> tweets at you when your plant needs watering or has died.<br>
+</li>
+</ul>
+<h3 id="for_official_adoption">For Official Adoption</h3>
+
+<p>Design your app to be officially adopted or replace an existing resource. You may need to invest more time in social processes (explaining, building trust, gaining buy-in) than engineering; or engineering may need to be focused on maintainance/infrastructure constraints or accessibility (<a href="http://en.wikipedia.org/wiki/Section_508_Amendment_to_the_Rehabilitation_Act_of_1973">508 compliance</a>!) over raw functionality.
+ * Example: <a href="https://github.com/codeforamerica/srtracker">SR Tracker</a></p>
+
+<p><a name="ideaPatterns"></a></p>
+
+<h2 id="idea_patterns">Idea Patterns</h2>
+
+<h3 id="reimagine">Reimagine</h3>
+
+<p>Engage people in creative, curious or inane thought. Be unlike the "typical" experience or style of engagement with a topic or problem. One potential danger to this pattern is the lack of a clear action step.</p>
+
+<ul>
+<li>Examples: <a href="http://blockee.org/">Blockee</a>, <a href="http://codeforamerica.github.com/jfdicitizen/">JFDICitizen</a>
+</li>
+</ul>
+<h3 id="do_your_research">Do your research</h3>
+
+<p>Research common questions or phrases that people are googling within a topic/issue-area. Look at the top resulting links and build an app that is both subjectively better than the competition <em>and</em> has a chance of having a higher Google ranking. Google even has a <a href="https://adwords.google.com/select/KeywordToolExternal">keyword research tool</a>. </p>
+
+<h3 id="self-tested">Self-tested</h3>
+
+<p>Build an application that you yourself fully and/or regularly use. Assuming you aren't a sociopath, though admitting that you aren't representative of everyone or even many-one, building something that is insanely useful to you can result in something that is relevant to others. Unfortunately, it's often easy to fall into the subsequent anti-pattern, </p>
+
+<h3 id="seek_out_existing_communities">Seek Out Existing Communities</h3>
+
+<p>Find an existing community (online, offline, geographical, affinity, etc.) to discover problems, pain points and potential interventions. You get an automatic userbase with a shared identity who--assuming you're a good listener---already understand the problem your technical intervention is trying to solve. Beware of potential Idea Anti-Patterns such as <em>Intention Over Practice</em>, <em>Management Problems</em> or <em>Niche Tools</em>.</p>
+
+<h3 id="digitize_a_process">Digitize a Process</h3>
+
+<p>Build a tool that makes an existing process easier, faster, better, stronger. Ask, "is someone already doing this, but on paper or by phone?" At the same time, be aware that simply digitizing a process can take valuable social interactions out of what seems like an inefficient process. (See also: <em>Seek Out Existing Communities</em>)</p>
+
+<h3 id="make_it_mobile">Make it Mobile</h3>
+
+<p>Take information in a closed format and make it available to people when and where they need it. Today, that often means on a smartphone (which people do have -- see <em>Go to the People</em>, above, and <em>...and it has SMS</em>, an anti-pattern)</p>
+
+<h3 id="relevance">Relevance</h3>
+
+<p>Is the app doing something that matters to people in the field? For example, is it tracking things that matter to the people who are tracking them? Are you only tracking stuff that only matters to management?</p>
+
+<h3 id="have_a_business_model">Have A Business Model</h3>
+
+<p>Even as a thought experiment, asking “who would pay money for this and how much?” can crystallize intent. It'll help you find your audience and your value. </p>
+
+<h3 id="bridging_tech_capacity">Bridging tech capacity</h3>
+
+<p>Is it doing something that the people who should make it cannot do for time, money, skill reasons? Maybe they already have tech capacity to do 90% of stuff, but just need help getting data out of the system, etc.</p>
+
+<h3 id="content_before_engineering">Content before Engineering</h3>
+
+<p>Can you explain a process so that people really understand it well <em>before</em> you build the system to contain the process? Are you an expert in that process and have actually experienced it? See "It's For the little people"</p>
+
+<h3 id="a_happening">A Happening</h3>
+
+<p>An impermanent experience can be more transformative than a permanent artifact. Build a brief or one-off experience that someone (or a group of people) can go through and be done without any future expectations or collateral. Just because computers are really good at storing stuff doesn't mean you have to capitulate to their silicon whims. May be a subset of the <em>Reimagine</em> pattern.</p>
+
+<p><a name="designAntiPatterns"></a></p>
+
+<h2 id="design_anti-patterns">Design <em>Anti</em>-Patterns</h2>
+
+<p>Anti-patterns aren't inherently bad. The are often difficult to achieve because their success relies heavily on non-tech stuff like community outreach, content creation and community management. Or, they might just be easy to implement badly. Think twice about adpoting one of thesse patterns. </p>
+
+<h3 id="civic_cms">Civic CMS</h3>
+
+<p>"I need a site that has a neighborhood community calendar and a social network and a blog and a map and..." The boringest interaction model ever. These sites often end up abandoned: blogs with no posts for months, empty calendars, and spam-filled comments. Before starting one, ask "Who's going to update it regularly?" and "Why will someone read it?" Instead, consider starting a Facebook page, mailing list, Google calendar, or Twitter feed -- see the <em>Go to the People</em> pattern,above. </p>
+
+<p>A civic CMS might just be what you need if you already have an active online community that wants to take another step. For example, if your neighbors already all read your blog for events, but you want to make it easy for them to add their own, a CMS could be the solution. Just be wary of trying to do it all at once. </p>
+
+<blockquote>
+<p>“Liberty cannot be established without content, nor content without content moderation.” 
+<br><cite>– de Tocqueville</cite> </p>
+</blockquote>
+
+<h3 id="..and_it_has_sms">..and it has SMS</h3>
+
+<p>We all know SMS is code for <em>those people</em>. If your conception of the experience of poverty, economic or social marginalization is "doesn't own smartphone", your app isn't serving real needs or context.</p>
+
+<h3 id="remove_humans_from_the_process">Remove humans from the process</h3>
+
+<p>The anti-pattern of <em>Digitize a Process</em>, above. Sometimes, taking a process online <a href="http://www.nytimes.com/2012/10/09/health/the-ups-and-downs-of-electronic-medical-records-the-digital-doctor.html?pagewanted=all">cuts efficiency</a> or removes valuable human communication from the mix. For example, in <a href="http://www.worldcat.org/title/close-to-the-machine-technophilia-and-its-discontents-a-memoir/oclc/37277573">Close to the Machine</a>, Ellen Ullman describes an electronic social services system that lead to less communication between service providers who once traded details with each other by phone. </p>
+
+<h3 id="games_that_aren't_actually_games">Games that aren't actually games</h3>
+
+<p>Zynga-style "badge acquisition" isn't actually "fun” despite being a “game”, it's just addictive. And it usually isn't even addictive -- no one will want to earn badges for shoveling their sidewalk, unless it ties into a larger system that people are already using (see <em>Go to the People</em>, above.)</p>
+
+<h3 id='"imagine_a_million_users…"'>"Imagine a million users…"</h3>
+
+<p>No, imagine one user (hopefully you); what's the immediate benefit to user #2?</p>
+
+<h3 id="they'll_find_it_via_google_/_if_we_build_it_they_will_come">They'll find it via Google / if we build it they will come</h3>
+
+<p>Nope. They won’t. </p>
+
+<h3 id="and_then_they_will_tell_their_friends">And then they will tell their friends</h3>
+
+<p>Nope. They won’t do that either, especially if "they" never came in the first place (see "if we built it they will come"). </p>
+
+<p><a name="ideaAntiPatterns"></a></p>
+
+<h2 id="idea_anti-patterns">Idea <em>Anti</em>-Patterns</h2>
+
+<h3 id="focus_on_the_negative">Focus on the negative</h3>
+
+<p>Crime maps, restaurant inspections, waste/fraud/abuse. While these may be useful applications, they are overrepresented in civic technology. Also, these applications often do little to challenge people's preconcieved notions, let alone educate them on the process, policies and politics that generated the underlying data in the first place.</p>
+
+<ul>
+<li>Example: <a href="http://donteat.at/">Don'tEat.At</a>
+</li>
+<li>Further reading: <a href="http://www.island94.org/2011/09/crime-and-data-leadership/">Crime and Data Leadership</a>, </li>
+</ul>
+<h3 id="simplify_the_complex">Simplify the Complex</h3>
+
+<p>This anti-pattern describes the boiling down of a complex, nuanced or difficult-to-understood process/dataset into a simplistic analysis or kneejerk action-step. Often combined with <em>Focus on the Negative</em>.</p>
+
+<ul>
+<li>Example: (nearly) all crime maps ever.</li>
+</ul>
+<h3 id="correlation_=_causation">Correlation = Causation</h3>
+
+<p>Just because you can show crime rates on the same map as all the liquor licenses in your city doesn't mean you should. Correlation doesn't equal causation, and unless you have a good story to tell along with your data visualization, don't lead people astray.  </p>
+
+<h3 id="stuff_on_a_map">Stuff on a map</h3>
+
+<p><a href="http://www.youtube.com/watch?v=0XM3vWJmpfo">Put a bird on it</a> and call it a day. Ask, instead, "what value does a map give?" A list, chart, or just plain text might be much more useful for your readers. </p>
+
+<h3 id="“it’s_interesting”_/_pseudo_investigative_journalism">“It’s interesting” / Pseudo Investigative Journalism</h3>
+
+<p>Publish with purpose. Don't simply move a public dataset online because it exists. Don't be that newspaper that <a href="http://www.nytimes.com/2013/01/07/nyregion/after-pinpointing-gun-owners-journal-news-is-a-target.html?pagewanted=all">published the home addresses</a> of gun owners "just because."  The exception is if you're doing it as an exercise in learning a technology, which is cool. </p>
+
+<h3 id="the_dead_end">The Dead End</h3>
+
+<p>If it doesn’t have an action step, so what? In some cases, it's fine if a page is a dead-end. But you probably brought the user to the page for a reason. </p>
+
+<h3 id="niche_tools">Niche tools</h3>
+
+<p>From ReportingOn's <a href="http://www.pbs.org/idealab/2010/12/lessons-learned-from-reportingon363.html">farewell blogpost</a> about building highly specialized tools for journalists (and applicable to just about any domain, like civic tech): </p>
+
+<blockquote>
+<p>Unless what you're building meets a <em>very</em> journalism-specific need, you're probably grinding your gears to build something "for journalists" when they just need a great communication tool, independent of any particular niche or category of users.  </p>
+</blockquote>
+
+<h3 id="management_problems">Management Problems</h3>
+
+<p>Ok, so you now you have a great user roles, permissions and auditing system; how does that make it easier for the people actually accessing and entering data into the system?</p>
+
+<h3 id="no_competition_scan">No competition scan</h3>
+
+<p>Make sure you know what's already been done. Where do you fit? Where can you add value? Are the existing sites good enough? There are plenty of untapped opportunities -- it might be better to start there. Then again, you do want to <em>Seek Out Existing Communities</em>.  </p>
+
+<h3 id="intention_over_practice">Intention over Practice</h3>
+
+<p>You might be tempted to build something that people <em>want</em> to do (or feel like they <em>should</em> do), but ultimately don't.
+ * Examples: The post-conference social network that seems like a great idea <em>at</em> the conference, but subsequently goes unused. The Project/Task Management tool that people would rather agonize over rather than actually doing the project or the task itself</p>
+
+<h3 id="it's_not_for_me">It's Not for Me</h3>
+
+<p>Not something the user wants to do, but something <em>you</em> want the user to do
+You want people to collaborate better, but do <em>they</em> want to collaborate better, or more importantly, are they willing to invest in the collaboration</p>
+
+<h3 id="it's_in_the_algorithm_/_it's_an_engineering_problem">It's in the algorithm / it's an engineering problem</h3>
+
+<p>The problem you see -- perhaps one of crushing bureaucratic incompetence or disorganized citizens -- probably can't be fixed with a website. That said, a digital tool might be designed <em>For Official Adoption</em>. </p>
+
+<h3 id="they’ll_visit_it_all_the_time">They’ll visit it all the time</h3>
+
+<p>Apps on my home screen: Google, Facebook, the New York Times. Apps that will never be on my home screen: yours.</p>
+
+<p><a name="typesOfCivicApps"></a></p>
+
+<h2 id="types_of_civic_applications">Types of Civic Applications</h2>
+
+<p>The following is taken from <a href="http://www.esri.com/news/arcuser/0312/civic-engagement-apps-fall-into-seven-categories.html">ESRI's "Civic Engagement Apps Fall into Seven Categories"</a> [though it could use improvement]:</p>
+
+<ul>
+<li><p><strong>Public Information:</strong> Maps are being used with greater frequency to communicate complex information that would not be quickly grasped in another format. These apps are effective at addressing transparency concerns, provide a channel for feedback, and communicate both where and why government money is being spent. Recovery.org, mapping the American Recovery and Reinvestment Act economic stimulus spending, is a good example of this type of app.</p></li>
+<li><p><strong>Public Reporting:</strong> The Federal Communications Commission (FCC) tapped into the power of crowdsourced information through the FCC Speed Test, an iPhone app that measures the quality and speed of a consumer's broadband connection. During the first six months it was available from the App Store, 1.2 million people downloaded the app and reported back information that helped the agency plan infrastructure expansion and determine policy. The captured data is visualized as a mapped surface that can be explored.</p></li>
+<li><p><strong>Solicited Comments</strong>: Apps don't have to be forever. When the Regional Transportation Commission of Washoe County, Nevada, wanted citizen comment on the Reno Sparks Bicycle and Pedestrian Master Plan, it worked with Esri partner CitySourced to develop an app that would let residents identify the locations for needed improvements, such as a crosswalk or a bike lane, simply by taking a photo of the location with a smartphone and writing comments in a form. These comments were captured and displayed on a web map. The app went up in summer 2010 and was taken down in early 2011.</p></li>
+<li><p><strong>Unsolicited Comments</strong>: Governments can learn about public opinion on issues and the effects of events through apps that gather constituents' posts on social media sites such as Twitter and Flickr. Social media maps on events such as the Gulf of Mexico oil spill aggregated and shared comments, photos, and videos that greatly enhanced the information available on conditions.</p></li>
+<li><p><strong>Citizen as Sensor</strong>: The Crime Tips app, from Esri partners The Omega Group and CitySourced, gives police many more eyes on the street. The iPhone/iPod/iPad app lets the user learn which crimes are happening nearby as well as anonymously report crime tips that will be forwarded to authorities.</p></li>
+<li><p><strong>Volunteerism</strong>: The Lifesaving App for the Android and iPhone, developed for the San Ramon Valley Fire Protection District by the nonprofit PulsePoint Foundation, crowdsources Good Samaritans. In instances of cardiac arrest, time is vital. The Lifesaving App lets smartphone users volunteer to be notified if someone nearby needs CPR. When a 911 call is received, the nearest CPR volunteer, who is in the best position to respond in timely fashion, receives information on the incident.</p></li>
+<li><p><strong>Citizen as Scientist</strong>: Individuals can contribute to collective knowledge with these apps. The free Mojave Desert Tortoise app lets users take a photo, find out more about this endangered species, and note location and other information about an individual tortoise.</p></li>
+</ul>
+</body></html>
+
+  </body>
+</html>
