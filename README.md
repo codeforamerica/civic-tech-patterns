@@ -85,7 +85,7 @@ An impermanent experience can be more transformative than a permanent artifact. 
 
 <a name="designAntiPatterns" />
 ## Design _Anti_-Patterns
-Anti-patterns aren't inherently bad. The are often difficult to achieve because their success relies heavily on non-tech stuff like community outreach, content creation and community management. Or, they might just be easy to implement badly. Think twice about adpoting one of thesse patterns. 
+Anti-patterns aren't inherently bad. The are often difficult to achieve because their success relies heavily on non-tech stuff like community outreach, content creation and community management. Or, they might just be easy to implement badly. Think twice about adpoting one of these patterns. 
 
 ### Civic CMS
 "I need a site that has a neighborhood community calendar and a social network and a blog and a map and..." The boringest interaction model ever. These sites often end up abandoned: blogs with no posts for months, empty calendars, and spam-filled comments. Before starting one, ask "Who's going to update it regularly?" and "Why will someone read it?" Instead, consider starting a Facebook page, mailing list, Google calendar, or Twitter feed -- see the *Go to the People* pattern,above. 
