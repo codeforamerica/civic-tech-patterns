@@ -26,7 +26,7 @@ Focus on clearly/accessibly explaining a process and offering a clear "now what"
 > A deep, cold river.
 > We can't go over it,
 > We can't go under it,
-> We've gotta go throught it!
+> We've gotta go through it!
 > Splish splosh, splish splosh.
 
 * Examples: [OpenCounter](https://github.com/codeforamerica/opencounter), [CPS Tiers](http://cpstiers.opencityapps.org/about.html)
