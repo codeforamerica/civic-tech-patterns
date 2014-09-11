@@ -95,23 +95,11 @@ A civic CMS might just be what you need if you already have an active online com
   > “Liberty cannot be established without content, nor content without content moderation.” 
   > <br><cite>– de Tocqueville</cite> 
 
-### ..and it has SMS
-We all know SMS is code for *those people*. If your conception of the experience of poverty, economic or social marginalization is "doesn't own smartphone", your app isn't serving real needs or context.
-
 ### Remove humans from the process
 The anti-pattern of *Digitize a Process*, above. Sometimes, taking a process online [cuts efficiency](http://www.nytimes.com/2012/10/09/health/the-ups-and-downs-of-electronic-medical-records-the-digital-doctor.html?pagewanted=all) or removes valuable human communication from the mix. For example, in [Close to the Machine](http://www.worldcat.org/title/close-to-the-machine-technophilia-and-its-discontents-a-memoir/oclc/37277573), Ellen Ullman describes an electronic social services system that lead to less communication between service providers who once traded details with each other by phone. 
 
 ### Games that aren't actually games
 Zynga-style "badge acquisition" isn't actually "fun” despite being a “game”, it's just addictive. And it usually isn't even addictive -- no one will want to earn badges for shoveling their sidewalk, unless it ties into a larger system that people are already using (see *Go to the People*, above.)
-
-### "Imagine a million users…"
-No, imagine one user (hopefully you); what's the immediate benefit to user #2?
-
-### They'll find it via Google / if we build it they will come
-Nope. They won’t. 
-
-### And then they will tell their friends
-Nope. They won’t do that either, especially if "they" never came in the first place (see "if we built it they will come"). 
 
 <a name="ideaAntiPatterns" />
 ## Idea _Anti_-Patterns
@@ -129,9 +117,6 @@ This anti-pattern describes the boiling down of a complex, nuanced or difficult-
 
 ### Correlation = Causation 
 Just because you can show crime rates on the same map as all the liquor licenses in your city doesn't mean you should. Correlation doesn't equal causation, and unless you have a good story to tell along with your data visualization, don't lead people astray.  
-
-### Stuff on a map
-[Put a bird on it](http://www.youtube.com/watch?v=0XM3vWJmpfo) and call it a day. Ask, instead, "what value does a map give?" A list, chart, or just plain text might be much more useful for your readers. 
 
 ### “It’s interesting” / Pseudo Investigative Journalism
 Publish with purpose. Don't simply move a public dataset online because it exists. Don't be that newspaper that [published the home addresses](http://www.nytimes.com/2013/01/07/nyregion/after-pinpointing-gun-owners-journal-news-is-a-target.html?pagewanted=all) of gun owners "just because."  The exception is if you're doing it as an exercise in learning a technology, which is cool. 
