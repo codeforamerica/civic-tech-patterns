@@ -113,6 +113,15 @@ Nope. They won’t.
 ### And then they will tell their friends
 Nope. They won’t do that either, especially if "they" never came in the first place (see "if we built it they will come"). 
 
+### .io, .ly, .biz: making domain name choices unintentionally
+While technologists are used to domains ending with `.io` or `.ly`, these can be confusing and hard to remember for many users.
+
+For _most_ users today, `.com` is a clear signifier that something is a web site.
+
+Somewhat longer names ending in `.com` -- for example, www.SouthBendVoices.com instead of www.CityVoice.io -- may be easier to remember for many users. A longer, clearer name also has the added benefit of improving Google discoverability.
+
+The principle here is **talk to your target users before making a domain name decision**. For most civic projects, you the creator are not representative of most of your users.
+
 <a name="ideaAntiPatterns" />
 ## Idea _Anti_-Patterns
 
