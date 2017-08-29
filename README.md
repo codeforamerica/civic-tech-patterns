@@ -12,6 +12,7 @@ To discuss any of these, please [open an issue](https://github.com/codeforameric
 
 
 <a name="designPatterns" />
+
 ## Design Patterns
 
 ### Civic Wayfinding
@@ -46,6 +47,7 @@ Design your app to be officially adopted or replace an existing resource. You ma
  * Example: [SR Tracker](https://github.com/codeforamerica/srtracker)
 
 <a name="ideaPatterns" />
+
 ## Idea Patterns
 
 ### Reimagine
@@ -114,6 +116,7 @@ Nope. They won’t.
 Nope. They won’t do that either, especially if "they" never came in the first place (see "if we built it they will come"). 
 
 <a name="ideaAntiPatterns" />
+
 ## Idea _Anti_-Patterns
 
 ### Focus on the negative
@@ -165,6 +168,7 @@ The problem you see -- perhaps one of crushing bureaucratic incompetence or diso
 Apps on my home screen: Google, Facebook, the New York Times. Apps that will never be on my home screen: yours.
 
 <a name="typesOfCivicApps" />
+
 ## Types of Civic Applications
 
 The following is taken from [ESRI's "Civic Engagement Apps Fall into Seven Categories"](http://www.esri.com/news/arcuser/0312/civic-engagement-apps-fall-into-seven-categories.html) [though it could use improvement]:
