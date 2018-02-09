@@ -11,8 +11,8 @@ In the spirit of [Wikipatterns](http://www.wikipatterns.com/display/wikipatterns
 To discuss any of these, please [open an issue](https://github.com/codeforamerica/civic-tech-patterns/issues), or fork and submit a pull-request.
 
 
-<a name="designPatterns" />
 ## Design Patterns
+<a name="designPatterns" />
 
 ### Civic Wayfinding
 Focus on clearly/accessibly explaining a process and offering a clear "now what" action step. Show people where to put their logical or emotional response: write their reps, letter to the editor, send story to local blog, etc. Instead of trying bulldoze through the walls of bureaucracy, hold people's hand in going up, over, or around them. Take them on a bear hunt:
@@ -45,8 +45,8 @@ Actively reach out to people when an action has taken place or further action is
 Design your app to be officially adopted or replace an existing resource. You may need to invest more time in social processes (explaining, building trust, gaining buy-in) than engineering; or engineering may need to be focused on maintainance/infrastructure constraints or accessibility ([508 compliance](http://en.wikipedia.org/wiki/Section_508_Amendment_to_the_Rehabilitation_Act_of_1973)!) over raw functionality.
  * Example: [SR Tracker](https://github.com/codeforamerica/srtracker)
 
-<a name="ideaPatterns" />
 ## Idea Patterns
+<a name="ideaPatterns" />
 
 ### Reimagine
 Engage people in creative, curious or inane thought. Be unlike the "typical" experience or style of engagement with a topic or problem. One potential danger to this pattern is the lack of a clear action step.
@@ -83,8 +83,9 @@ Can you explain a process so that people really understand it well *before* you 
 ### A Happening
 An impermanent experience can be more transformative than a permanent artifact. Build a brief or one-off experience that someone (or a group of people) can go through and be done without any future expectations or collateral. Just because computers are really good at storing stuff doesn't mean you have to capitulate to their silicon whims. May be a subset of the *Reimagine* pattern.
 
-<a name="designAntiPatterns" />
 ## Design _Anti_-Patterns
+<a name="designAntiPatterns" />
+
 Anti-patterns aren't inherently bad. The are often difficult to achieve because their success relies heavily on non-tech stuff like community outreach, content creation and community management. Or, they might just be easy to implement badly. Think twice about adopting one of these patterns. 
 
 ### Civic CMS
@@ -113,8 +114,8 @@ Nope. They won’t.
 ### And then they will tell their friends
 Nope. They won’t do that either, especially if "they" never came in the first place (see "if we built it they will come"). 
 
-<a name="ideaAntiPatterns" />
 ## Idea _Anti_-Patterns
+<a name="ideaAntiPatterns" />
 
 ### Focus on the negative
 Crime maps, restaurant inspections, waste/fraud/abuse. While these may be useful applications, they are overrepresented in civic technology. Also, these applications often do little to challenge people's preconcieved notions, let alone educate them on the process, policies and politics that generated the underlying data in the first place.
@@ -164,8 +165,8 @@ The problem you see -- perhaps one of crushing bureaucratic incompetence or diso
 ### They’ll visit it all the time
 Apps on my home screen: Google, Facebook, the New York Times. Apps that will never be on my home screen: yours.
 
-<a name="typesOfCivicApps" />
 ## Types of Civic Applications
+<a name="typesOfCivicApps" />
 
 The following is taken from [ESRI's "Civic Engagement Apps Fall into Seven Categories"](http://www.esri.com/news/arcuser/0312/civic-engagement-apps-fall-into-seven-categories.html) [though it could use improvement]:
 
