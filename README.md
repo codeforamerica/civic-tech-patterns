@@ -1,3 +1,6 @@
+Civic Tech Patterns
+==================
+
 In the spirit of [Wikipatterns](http://www.wikipatterns.com/display/wikipatterns/Wikipatterns), this is a collection of [patterns and anti-patterns](http://en.wikipedia.org/wiki/Pattern_language) for describing common practices that may help or hinder the conception or design of your civic technology.
 
 1. [Design Patterns](#designPatterns)
