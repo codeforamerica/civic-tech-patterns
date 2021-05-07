@@ -144,7 +144,7 @@ Publish with purpose. Don't simply move a public dataset online because it exist
 If it doesn’t have an action step, so what? In some cases, it's fine if a page is a dead-end. But you probably brought the user to the page for a reason. 
 
 ### Niche tools
-From ReportingOn's [farewell blogpost](http://www.pbs.org/idealab/2010/12/lessons-learned-from-reportingon363.html) about building highly specialized tools for journalists (and applicable to just about any domain, like civic tech): 
+From ReportingOn's [farewell blogpost](https://web.archive.org/web/20120310083320/http://www.pbs.org/idealab/2010/12/lessons-learned-from-reportingon363.html) about building highly specialized tools for journalists (and applicable to just about any domain, like civic tech): 
 
 > Unless what you're building meets a _very_ journalism-specific need, you're probably grinding your gears to build something "for journalists" when they just need a great communication tool, independent of any particular niche or category of users.  
 
